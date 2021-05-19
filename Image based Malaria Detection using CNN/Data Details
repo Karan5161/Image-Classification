@@ -1,0 +1,14 @@
+Introduction:
+Malaria is a mosquito-borne infectious disease that affects humans and other animals. Malaria can be detected by checking the human cell having the parasite of malaria. This project will help to find whether the human cell is parasitized or is uninfected using the CNN from Keras which is used for Deep Learning in Python. 
+
+Data:
+The data set used in this is imaged based containing the image of both Parasitized and uninfected cells. This data is available on Kaggle or github.
+For the purpose of model I have divided the data into different folders cell_image(Training Data), test (Testing Data), Validate (Validation Data). 
+
+Method / Approach:
+1.	Firstly, I have converted the data into a normalized data since the images were of different dimension. 
+2.	Then using train data, I have trained the CNN model and tested with the test data found that the model accuracy is 96%.
+3.	Then I have passed the validation data which has both the infected and uninfected cell sample and found that the prediction were right.
+
+Output:
+The output of this project will be in the form of Image with label whether Parasitized or Uninfected predicted by the model and accuracy.
